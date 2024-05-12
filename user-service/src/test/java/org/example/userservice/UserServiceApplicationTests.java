@@ -15,6 +15,7 @@ import org.springframework.test.context.jdbc.Sql;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
+import static org.assertj.core.api.FactoryBasedNavigableListAssert.assertThat;
 import static org.springframework.mock.http.server.reactive.MockServerHttpRequest.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -49,6 +50,7 @@ class UserServiceApplicationTests {
 		mockMvc.perform(get("/user/testId"))
 				.andExpect(status().isOk())
 				.andDo(print());
+//		assertThat()
 	}
 	@Test
 	@DisplayName("Get all users")
