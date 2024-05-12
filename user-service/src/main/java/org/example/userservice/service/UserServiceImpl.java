@@ -25,8 +25,9 @@ public class UserServiceImpl implements UserService {
     public UserDto createUser(UserDto userDto) {
         userDto.setId(String.valueOf(UUID.randomUUID()));
         UserEntity userEntity = mapper.map(userDto,UserEntity.class);
-        userRepository.save(userEntity);
-        return userDto;
+        UserEntity newUserEntity = userRepository.save(userEntity);
+        UserDto newUserDto = mapper.map(newUserEntity,UserDto.class);
+        return newUserDto;
     }
 
     @Override
