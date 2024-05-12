@@ -45,9 +45,9 @@ public class UserController {
         return ResponseEntity.status(HttpStatus.OK).body(userDto);
     }
 
-    @PostMapping("/user/register")
+    @PostMapping("/user/auth/register")
     public ResponseEntity<UserDto> createUser(@RequestBody RequestUser user) {
-//        System.out.println("REQUEST"+user.);
+
         UserDto userDto = mapper.map(user,UserDto.class);
         System.out.println(userDto);
         UserDto newUserDto = userService.createUser(userDto);

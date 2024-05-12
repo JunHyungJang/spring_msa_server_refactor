@@ -14,8 +14,8 @@ import java.util.stream.Collectors;
 @Slf4j
 public class UserServiceImpl implements UserService {
 
-    private UserRepository userRepository;
-    private ModelMapper mapper;
+    private final UserRepository userRepository;
+    private final ModelMapper mapper;
     public UserServiceImpl(UserRepository userRepository) {
         this.userRepository = userRepository;
         this.mapper = new ModelMapper();
