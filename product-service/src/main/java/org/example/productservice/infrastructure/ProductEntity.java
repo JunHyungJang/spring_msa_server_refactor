@@ -16,7 +16,6 @@ import org.example.productservice.domain.ProductDto;
 public class ProductEntity {
     @Id
     private String id;
-    private String name;
     private int price;
     private int stock;
 
