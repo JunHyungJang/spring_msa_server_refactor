@@ -39,3 +39,9 @@ Zdiscovery-server/src/main/java/org/example/discoveryserver/DiscoveryServerAppli
 Vorder-service/src/test/java/org/example/orderservice/OrderServiceApplicationTests.java,e/4/e435891ee7b2dd0e0e17f23e026a1c408b5bcdc5
 Ñ
 Torder-service/src/main/java/org/example/orderservice/infrastructure/OrderEntity.java,1/8/18f8826420a5604839ba3ce102fa21620c86bc13
+{
+Kuser-service/src/main/java/org/example/userservice/service/UserService.java,7/a/7a131d32ded5055c05fefca7e9ac753c225df57c
+
+Ouser-service/src/main/java/org/example/userservice/service/UserServiceImpl.java,5/3/53aa05ec88169fd3b1f916610418251805d70e0e
+Å
+Quser-service/src/main/java/org/example/userservice/controller/UserController.java,c/2/c28e4674633b0487ca9cb394af91b55c0079fe91

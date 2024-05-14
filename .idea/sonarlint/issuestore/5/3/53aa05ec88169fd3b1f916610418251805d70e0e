@@ -1,0 +1,9 @@
+
+}
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "newUserDto".(À€ú„úÿÿÿÿ
+z
+java:S1488$"_Immediately return this expression instead of assigning it to the temporary variable "userDto".(¸ƒãüÿÿÿÿ
+{
+java:S1488+"`Immediately return this expression instead of assigning it to the temporary variable "userDtos".(ØÉ‘ùÿÿÿÿ
+
+java:S6204-"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹
