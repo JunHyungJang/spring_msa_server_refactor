@@ -1,5 +1,6 @@
 package org.example.productservice.service;
 
+import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import org.example.productservice.domain.ProductDto;
 import org.example.productservice.infrastructure.ProductEntity;
@@ -17,6 +18,7 @@ public class ProductServiceImpl implements ProductService{
     }
 
     @Override
+    @Transactional
     public ProductDto updateProductStock(String id,int qty) {
         ProductEntity productEntity = productRepository.findById(id);
 //        System.out.println(productEntity);
