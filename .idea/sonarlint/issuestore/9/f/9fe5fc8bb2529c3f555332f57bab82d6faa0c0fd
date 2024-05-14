@@ -1,0 +1,7 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ƒ»ÛÄ÷1J$82d18b9b-3bcd-45c1-9e56-a8a2ddee28e5
+Ž
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(€ùÍíüÿÿÿÿ8ØÒÞÄ÷1
+º
+java:S1130%"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Ð“ÀÑ8†»ÛÄ÷1J$a3b31cd3-44c0-4c39-ba7c-c2d67cc90add

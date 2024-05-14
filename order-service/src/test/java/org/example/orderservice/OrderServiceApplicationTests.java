@@ -1,8 +1,16 @@
 package org.example.orderservice;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jun.models.OrderObject;
+import com.jun.models.OrderRequest;
+import com.jun.models.OrderResponse;
+import com.jun.models.OrderServiceGrpcGrpc;
+import io.grpc.ManagedChannel;
+import io.grpc.ManagedChannelBuilder;
 import org.example.orderservice.domain.OrderDto;
 import org.example.orderservice.domain.RequestOrder;
+import org.example.orderservice.gprcserver.OrderServiceGrpc;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -28,9 +36,19 @@ class OrderServiceApplicationTests {
 
 	@Autowired
 	private MockMvc mockMvc;
-
 	private final ObjectMapper objectMapper = new ObjectMapper();
-
+	private static OrderServiceGrpcGrpc.OrderServiceGrpcBlockingStub blockingStub;
+	private static OrderServiceGrpcGrpc.OrderServiceGrpcStub stub;
+	@BeforeAll
+	public static void setup() {
+		ManagedChannel managedChannel = ManagedChannelBuilder.forAddress("localhost",8912)
+				.usePlaintext()
+				.build();
+		blockingStub = OrderServiceGrpcGrpc.newBlockingStub(managedChannel);
+		stub = OrderServiceGrpcGrpc.newStub(managedChannel);
+		//		this.blockingStub = com.jun.models.OrderServiceGrpcGrpc.newBlockingStub(managedChannel);
+//		this.OrderServiceStub = com.jun.models.OrderServiceGrpcGrpc.newStub(managedChannel);
+	}
 	@Test
 	@DisplayName("Health check")
 	public void healthCheck() throws Exception {
@@ -78,6 +96,18 @@ class OrderServiceApplicationTests {
 				.andDo(print());
 	}
 
+	@Test
+	@DisplayName("GRPC TEST")
+	public void getAllOrdersByUserdIdGprc(){
+		OrderRequest orderRequest = OrderRequest.newBuilder().setUserId("testId").build();
+		OrderResponse orderResponse = blockingStub.getOrdersById(orderRequest);
+
+		System.out.println(orderResponse);
+		OrderObject orderObject = orderResponse.getOrderObjectsList().get(0);
+//		assertThat(orderObject.getUserId()).isEqualTo("testId");
+//		assertThat(orderObject.get
+//		assertThat(orderResponse.getOrderObjects())
+	}
 
 
 
