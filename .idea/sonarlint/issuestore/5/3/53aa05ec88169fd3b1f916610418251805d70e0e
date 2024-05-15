@@ -1,9 +1,9 @@
 
-}
-java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "newUserDto".(À€ú„úÿÿÿÿ
-z
-java:S1488$"_Immediately return this expression instead of assigning it to the temporary variable "userDto".(¸ƒãüÿÿÿÿ
-{
-java:S1488+"`Immediately return this expression instead of assigning it to the temporary variable "userDtos".(ØÉ‘ùÿÿÿÿ
-
-java:S6204-"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹
+£
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "newUserDto".(À€ú„úÿÿÿÿJ$9d72462b-9bef-4db4-8ba3-7bb11b9ff1f6
+ 
+java:S1488$"_Immediately return this expression instead of assigning it to the temporary variable "userDto".(¸ƒãüÿÿÿÿJ$6cfdd38f-c82d-4e5b-a0d3-92841eb24d50
+¡
+java:S1488+"`Immediately return this expression instead of assigning it to the temporary variable "userDtos".(ØÉ‘ùÿÿÿÿJ$cb49b959-99ce-4dfb-9524-21b2e79d8873
+¶
+java:S6204-"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹J$94e00b40-9b59-431f-9db5-dec7e3df1daf
