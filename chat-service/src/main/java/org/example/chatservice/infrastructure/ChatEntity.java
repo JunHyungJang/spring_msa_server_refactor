@@ -12,6 +12,6 @@ public class ChatEntity {
     @Id
     private String id;
     private String name;
-    private String roomId;
+    private int roomId;
     private String content;
 }

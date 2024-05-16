@@ -5,15 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb4d7318-fc8a-48d8-8d6b-1235debef4e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/domain/ChatDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/mq/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/mq/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-service/src/main/resources/static/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-service/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-service/src/main/resources/static/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-service/src/test/java/org/example/chatservice/WebSocketTestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/1630d80ca32cb9e96aeabf33c3418b6c4245d84f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/1630d80ca32cb9e96aeabf33c3418b6c4245d84f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51ec20f7ce7590db500908e13e9208c6969300fe" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51ec20f7ce7590db500908e13e9208c6969300fe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/614695d635adb24043333af1445eb5cd8ce74c61" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/614695d635adb24043333af1445eb5cd8ce74c61" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793bade41f2166db01b857b17aa30969a84eea6b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793bade41f2166db01b857b17aa30969a84eea6b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5317c7aa18fc791dc7cf1115fb20b0a67eaedd2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5317c7aa18fc791dc7cf1115fb20b0a67eaedd2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c88a949eefa0a4a6137f8bffc98fe3185e2c8493" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c88a949eefa0a4a6137f8bffc98fe3185e2c8493" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0288704ff7d8bf7404660df73d5e3827653a2cc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0288704ff7d8bf7404660df73d5e3827653a2cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f869391c066a4b24fbead19fec1dc53b3ab06433" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f869391c066a4b24fbead19fec1dc53b3ab06433" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/mq/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/mq/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/chat-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/infrastructure/ChatEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/infrastructure/ChatEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/mq/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/mq/KafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/mq/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/mq/KafkaProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/mq/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/mq/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/service/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/service/ChatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-service/src/main/java/org/example/chatservice/service/ChatServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/test/java/org/example/chatservice/ChatServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-service/src/test/java/org/example/chatservice/ChatServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +137,7 @@
     "Spring Boot.UserServiceApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jangjunhyeong/DevHome/projects/spring_msa_server_refactor",
+    "last_opened_file_path": "/Users/jangjunhyeong/DevHome/projects/spring_msa_server_refactor/chat-service/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -135,6 +154,11 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chat-service/src/main/resources" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="open ~/DevHome/projects/spring_msa_server_refactor/order-service" />
@@ -149,7 +173,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ChatServiceApplication">
+  <component name="RunManager" selected="Gradle.ChatServiceApplicationTests">
     <configuration name="ChatServiceApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -281,7 +305,7 @@
       <workItem from="1715496172542" duration="1733000" />
       <workItem from="1715608114103" duration="154000" />
       <workItem from="1715608273646" duration="6055000" />
-      <workItem from="1715693212920" duration="16557000" />
+      <workItem from="1715693212920" duration="26197000" />
     </task>
     <servers />
   </component>

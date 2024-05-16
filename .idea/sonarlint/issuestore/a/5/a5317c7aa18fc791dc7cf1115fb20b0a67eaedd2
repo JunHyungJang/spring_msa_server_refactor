@@ -1,15 +1,14 @@
 
 d
-java:S1170"!Make this final field static too.(ÃöÁà8£¤õç÷1J$d013a805-9ac6-4beb-9f5c-0e835d46bb12
-ƒ	java:S125 "<This block of commented-out lines of code should be removed.(ç·¨ışÿÿÿÿ8Şá÷ç÷1J$13aab9d5-8f04-4dde-992f-e79d6c902d1f
+java:S1170"!Make this final field static too.(ÃöÁà8£¤õç÷1J$32558c53-dc20-4b29-b383-b3d51b9189a9
 
-java:S1128"GRemove this unused import 'org.apache.kafka.clients.admin.AdminClient'.(Ï¾Ëíûÿÿÿÿ8©¤õç÷1J$e98268b0-1329-428e-8dc2-0d52af6474af
+java:S1128"GRemove this unused import 'org.apache.kafka.clients.admin.AdminClient'.(Ï¾Ëíûÿÿÿÿ8©¤õç÷1J$a84aeeb1-dcd6-4b50-8c85-fda2c4285e03
 •
-java:S1128"MRemove this unused import 'org.apache.kafka.clients.admin.AdminClientConfig'.(¿€ñíşÿÿÿÿ8Şá÷ç÷1J$750b904b-30a2-4f5e-9f75-88ef82b435d1
-s
-java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ8«Òøç÷1
+java:S1128"MRemove this unused import 'org.apache.kafka.clients.admin.AdminClientConfig'.(¿€ñíşÿÿÿÿ8Şá÷ç÷1J$658b7a12-0aa5-4a83-90fd-aabfaa7ec3d9
+™
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ8«Òøç÷1J$3434d7cf-6aac-4213-b476-31e9a3a3b8ec
 
 java:S1128
-"FRemove this unused import 'org.springframework.kafka.core.KafkaAdmin'.(İ³Ãşÿÿÿÿ8Şá÷ç÷1J$ffa9ee32-0f8e-42d4-a907-aff0c0383f60
+"FRemove this unused import 'org.springframework.kafka.core.KafkaAdmin'.(İ³Ãşÿÿÿÿ8Şá÷ç÷1J$0a054924-6cd4-45c9-840a-a3ca8bc094a0
 Œ
-java:S1128"DRemove this unused import 'org.apache.kafka.clients.admin.NewTopic'.(•Åüÿÿÿÿ8ßá÷ç÷1J$04b96a85-9e3b-4126-aea0-9d1107fb2dae
+java:S1128"DRemove this unused import 'org.apache.kafka.clients.admin.NewTopic'.(•Åüÿÿÿÿ8ßá÷ç÷1J$6d153be8-a9b1-4b11-85cd-a0c143d98025
