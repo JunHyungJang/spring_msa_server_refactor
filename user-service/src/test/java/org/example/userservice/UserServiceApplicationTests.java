@@ -45,12 +45,32 @@ class UserServiceApplicationTests {
 	}
 
 	@Test
-	@DisplayName("Get user")
+	@DisplayName("Get user GRPC")
 	public void getUser() throws  Exception {
+		long startTime = System.currentTimeMillis();
 		mockMvc.perform(get("/user/testId"))
 				.andExpect(status().isOk())
 				.andDo(print());
 //		assertThat()
+		long endTime = System.currentTimeMillis();
+		long duration = endTime - startTime;
+
+		System.out.println("Test duration: " + duration + " ms");
+	}
+
+	@Test
+	@DisplayName("Get User REST")
+	public void getUserRest() throws Exception {
+		long startTime = System.currentTimeMillis();
+		mockMvc.perform(get("/user/rest/testId"))
+				.andExpect(status().isOk())
+				.andDo(print());
+//		assertThat()
+		long endTime = System.currentTimeMillis();
+		long duration = endTime - startTime;
+
+		System.out.println("Test duration: " + duration + " ms");
+
 	}
 	@Test
 	@DisplayName("Get all users")

@@ -1,0 +1,8 @@
+
+W
+java:S3457!"AFormat specifiers should be used instead of string concatenation.(´¤Ð”
+V	java:S1254"<This block of commented-out lines of code should be removed.(ÕÖøßùÿÿÿÿ
+Q
+java:S1128"6Remove this unused import 'org.aspectj.weaver.ast.Or'.(®ô²Îûÿÿÿÿ
+@
+java:S1068"*Remove this unused "mapper" private field.(»˜¿Ý

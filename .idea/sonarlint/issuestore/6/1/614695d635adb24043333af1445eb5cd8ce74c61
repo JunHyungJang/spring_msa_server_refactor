@@ -1,5 +1,5 @@
 
-Ó
-java:S4449"ŠAnnotate the parameter with @javax.annotation.Nullable in method 'send' declaration, or make sure that null can not be passed as argument.(çÊÆùøÿÿÿÿ8­ˆÏø1J$7c36dda5-4a9d-4713-8e00-0bba22f8beb6
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8âëÎø1J$4ef4bd0b-e98b-46cf-a8e8-2141ce11c59d
+­
+java:S4449"ŠAnnotate the parameter with @javax.annotation.Nullable in method 'send' declaration, or make sure that null can not be passed as argument.(çÊÆùøÿÿÿÿ8Ö×ùø1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ö×ùø1

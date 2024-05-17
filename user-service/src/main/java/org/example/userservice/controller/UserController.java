@@ -44,6 +44,12 @@ public class UserController {
         return ResponseEntity.status(HttpStatus.OK).body(userDto);
     }
 
+    @GetMapping("/user/rest/{userId}")
+    public ResponseEntity<UserDto> getUserRest(@PathVariable("userId") String userId) {
+        UserDto userDto = userService.getUserByIdRest(userId);
+        return ResponseEntity.status(HttpStatus.OK).body(userDto);
+    }
+
     @PostMapping("/user/auth/register")
     public ResponseEntity<UserDto> createUser(@RequestBody RequestUser user) {
 

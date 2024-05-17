@@ -1,10 +1,10 @@
 
-’
-java:S1192"ODefine a constant instead of duplicating this literal "/sub/chatroom/" 3 times.(—ç©š8ºğÂø1J$02a551e0-2707-4987-8f89-38bc4a4b1b9c
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8åß¡Œø1J$37aa12d3-c588-4ab4-82b4-255ddbcadcc2
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8åß¡Œø1J$6debf68e-6026-43eb-a18f-a087d46b2bec
-r	java:S106"+Replace this use of System.out by a logger.(ş œúÿÿÿÿ8Ã§¿ø1J$f0ae009c-67a9-4eff-abd3-4c149e3dbd44
-m	java:S106*"+Replace this use of System.out by a logger.(±à’´8óËÂø1J$3736a9d1-e55c-4042-8408-3cf9f3eae057
-r	java:S1066"+Replace this use of System.out by a logger.(°Ûûÿÿÿÿ8¸Ãø1J$99b3178f-40d4-48e2-af6d-93297f2673c0
+l
+java:S1192"ODefine a constant instead of duplicating this literal "/sub/chatroom/" 3 times.(—ç©š8ÅÖùø1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8”×ùø1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8”×ùø1
+L	java:S106"+Replace this use of System.out by a logger.(ş œúÿÿÿÿ8–×ùø1
+G	java:S106*"+Replace this use of System.out by a logger.(±à’´8—×ùø1
+L	java:S1066"+Replace this use of System.out by a logger.(°Ûûÿÿÿÿ8˜×ùø1
