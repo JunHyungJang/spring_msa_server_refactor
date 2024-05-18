@@ -21,7 +21,6 @@ public class ProductServiceImpl implements ProductService{
     @Transactional
     public ProductDto updateProductStock(String id,int qty) {
         ProductEntity productEntity = productRepository.findById(id);
-//        System.out.println(productEntity);
         int remain = productEntity.getStock() - qty;
         if (remain <0){
             throw new RuntimeException();

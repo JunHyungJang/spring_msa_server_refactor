@@ -1,7 +1,9 @@
 package org.example.userservice;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jun.models.OrderObject;
 import org.example.userservice.domain.RequestUser;
+import org.example.userservice.domain.ResponseOrder;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -10,10 +12,13 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.jaxb.SpringDataJaxb;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.jdbc.Sql;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+
+import java.io.IOException;
 
 import static org.assertj.core.api.FactoryBasedNavigableListAssert.assertThat;
 import static org.springframework.mock.http.server.reactive.MockServerHttpRequest.post;
@@ -98,5 +103,57 @@ class UserServiceApplicationTests {
 				.andExpect(status().isCreated());
 	}
 
+	@Test
+	@DisplayName("Compare gRPC and REST")
+	public void compare() throws IOException {
+		OrderObject orderObject = OrderObject.newBuilder()
+				.setOrderId("testOrderId")
+				.setQty(1)
+				.setTotalPrice(1000)
+				.setUnitPrice(1000)
+				.build();
+
+		ResponseOrder responseOrder = new ResponseOrder();
+		responseOrder.setId("testId");
+		responseOrder.setQty(1);
+		responseOrder.setUnitPrice(1000);
+		responseOrder.setTotalPrice(1000);
+
+		Runnable json = () -> {
+			try {
+				byte[] bytes = objectMapper.writeValueAsBytes(responseOrder);
+				ResponseOrder newResponseOrder = objectMapper.readValue(bytes,ResponseOrder.class);
+			}catch (Exception e){
+				e.printStackTrace();
+			}
+		};
+
+		Runnable proto = () -> {
+			try{
+				byte[] bytes = orderObject.toByteArray();
+				OrderObject newOrderObject = OrderObject.parseFrom(bytes);
+
+			}catch (Exception e){
+				e.printStackTrace();
+			}
+		};
+
+		runPerformanceTest(json,"JSON");
+		runPerformanceTest(proto,"proto");
+
+
+
+	}
+
+	private static void runPerformanceTest(Runnable runnable,String method){
+		long time1 = System.currentTimeMillis();
+		for (int i = 0; i < 2000; i++) {
+			runnable.run();
+		}
+
+		long time2 = System.currentTimeMillis();
+
+		System.out.println(method + ":"  + (time2-time1) + "ms");
+	}
 
 }
