@@ -6,6 +6,7 @@ import com.jun.models.OrderResponse;
 import com.jun.models.OrderServiceGrpcGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
+import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 import org.example.userservice.domain.ResponseOrder;
 import org.example.userservice.domain.UserDto;
@@ -89,6 +90,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional
     public List<UserDto> getUserByAll() {
         List<UserEntity> userEntities = userRepository.findAll();
         List<UserDto> userDtos = userEntities.stream()

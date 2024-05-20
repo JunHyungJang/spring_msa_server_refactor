@@ -1,10 +1,10 @@
 
-’	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÅ·8˜ÎÔ½ø1J$968139e7-75f2-4b05-9ebc-2ff562da178f
+’	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÅ·8˜ÎÔ½ø1J$cc158658-f4b9-4bc1-8f25-170d52228618
 ª
-java:S14882"bImmediately return this expression instead of assigning it to the temporary variable "newUserDto".(À€ú„úÿÿÿÿ8™ÎÔ½ø1J$48ea2445-ac30-4869-88c3-f8ca430c75c1
+java:S14883"bImmediately return this expression instead of assigning it to the temporary variable "newUserDto".(À€ú„úÿÿÿÿ8™ÎÔ½ø1J$9e48dcf0-d1f2-4272-b186-25e83238a83b
 ¨
-java:S1488^"`Immediately return this expression instead of assigning it to the temporary variable "userDtos".(ØÉ‘ùÿÿÿÿ8™ÎÔ½ø1J$41763828-5ff0-407f-bdcd-5102a9603eb4
+java:S1488`"`Immediately return this expression instead of assigning it to the temporary variable "userDtos".(ØÉ‘ùÿÿÿÿ8™ÎÔ½ø1J$fdd64b37-39e8-4bdb-a131-662721f45608
 l
-java:S3010(")Remove this assignment of "blockingStub".(”Á²Û8·ÎÔ½ø1J$38e89f8a-f692-49c6-a6f9-1676d515d556
+java:S3010)")Remove this assignment of "blockingStub".(”Á²Û8·ÎÔ½ø1J$9572e099-2f18-460f-b780-8d58fc7cd581
 ½
-java:S6204`"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8½ÎÔ½ø1J$f1860152-4b43-4367-a2e4-a10ddc3c9ac5
+java:S6204b"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8½ÎÔ½ø1J$e9b7dba5-af70-4e5f-859c-c7fcde2c4f99

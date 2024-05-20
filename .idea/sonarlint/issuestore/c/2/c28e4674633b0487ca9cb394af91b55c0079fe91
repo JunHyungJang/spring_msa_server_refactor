@@ -1,4 +1,8 @@
 
 „
-java:S3457"AFormat specifiers should be used instead of string concatenation.(´¤Ğ”8©ÄÚ½ø1J$9943ced6-662d-4319-be39-c890f8f3451b
-m	java:S106;"+Replace this use of System.out by a logger.(ëØâÔ8«ÄÚ½ø1J$68511ba7-fc0c-45db-b477-ab2f23fc6796
+java:S3457"AFormat specifiers should be used instead of string concatenation.(´¤Ğ”8©ÄÚ½ø1J$68997a80-562a-449c-8682-c0646633e800
+™
+java:S1130*"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(´Èˆ¸ÿÿÿÿÿ8Ûâº×ø1
+™
+java:S11300"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ÎÍåıÿÿÿÿ8Üâº×ø1
+m	java:S1069"+Replace this use of System.out by a logger.(ëØâÔ8«ÄÚ½ø1J$b42e790f-423c-4aea-9917-f34184d284be

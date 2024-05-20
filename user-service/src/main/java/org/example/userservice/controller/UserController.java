@@ -41,14 +41,12 @@ public class UserController {
     @GetMapping("/user/{userId}")
     public ResponseEntity<UserDto> getUser(@PathVariable("userId") String userId) throws InterruptedException {
         UserDto userDto = userService.getUserById(userId);
-        Thread.sleep(100);
         return ResponseEntity.status(HttpStatus.OK).body(userDto);
     }
 
     @GetMapping("/user/rest/{userId}")
     public ResponseEntity<UserDto> getUserRest(@PathVariable("userId") String userId) throws InterruptedException {
         UserDto userDto = userService.getUserByIdRest(userId);
-        Thread.sleep(300);
         return ResponseEntity.status(HttpStatus.OK).body(userDto);
     }
 
