@@ -46,7 +46,7 @@ public class OrderController {
         return ResponseEntity.status(HttpStatus.OK).body(orderDtos);
 
     }
-
+    //Saga pattern
     @PostMapping("/order")
     public ResponseEntity<OrderDto> createOrder(@RequestBody RequestOrder order){
 //        OrderDto orderDto = mapper.map(order, OrderDto.class);
