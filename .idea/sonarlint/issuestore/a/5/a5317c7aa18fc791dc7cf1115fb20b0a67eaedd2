@@ -1,14 +1,3 @@
 
 d
-java:S1170"!Make this final field static too.(ÃöÁà8£¤õç÷1J$32558c53-dc20-4b29-b383-b3d51b9189a9
-
-java:S1128"GRemove this unused import 'org.apache.kafka.clients.admin.AdminClient'.(Ï¾Ëíûÿÿÿÿ8©¤õç÷1J$a84aeeb1-dcd6-4b50-8c85-fda2c4285e03
-•
-java:S1128"MRemove this unused import 'org.apache.kafka.clients.admin.AdminClientConfig'.(¿€ñíşÿÿÿÿ8Şá÷ç÷1J$658b7a12-0aa5-4a83-90fd-aabfaa7ec3d9
-™
-java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ8«Òøç÷1J$3434d7cf-6aac-4213-b476-31e9a3a3b8ec
-
-java:S1128
-"FRemove this unused import 'org.springframework.kafka.core.KafkaAdmin'.(İ³Ãşÿÿÿÿ8Şá÷ç÷1J$0a054924-6cd4-45c9-840a-a3ca8bc094a0
-Œ
-java:S1128"DRemove this unused import 'org.apache.kafka.clients.admin.NewTopic'.(•Åüÿÿÿÿ8ßá÷ç÷1J$6d153be8-a9b1-4b11-85cd-a0c143d98025
+java:S1170"!Make this final field static too.(ÃöÁà8£¤õç÷1J$c122b360-48ba-4af8-b424-ed3bbf4c573c

@@ -1,4 +1,4 @@
-package org.example.chatservice.mq;
+package org.example.orderservice.mq;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -9,8 +9,6 @@ import org.springframework.kafka.core.ProducerFactory;
 import java.util.HashMap;
 import java.util.Map;
 
-
-//@Configuration
 public class KafkaProducerConfig {
 
     private final String bootstrapAddress = "127.0.0.1:9092";

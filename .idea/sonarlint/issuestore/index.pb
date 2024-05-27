@@ -95,3 +95,9 @@ Zproduct-service/src/main/java/org/example/productservice/controller/ProductCont
 Zproduct-service/src/main/java/org/example/productservice/infrastructure/ProductEntity.java,0/4/0464815f2eac3617c12236283f3e7e5bd16935b2
 ˆ
 Xproduct-service/src/main/java/org/example/productservice/service/ProductServiceImpl.java,b/6/b6f22df5224f78fec09350d9471ab4710e8c0d7c
+~
+Nchat-service/src/main/java/org/example/chatservice/config/WebsocketConfig.java,5/c/5c3c8715743680d695571da740799a37445952af
+€
+Porder-service/src/main/java/org/example/orderservice/mq/KafkaProducerConfig.java,8/f/8f3a858011fe3207cd2062c59aab5e720aea1108
+D
+chat-service/gradlew,0/6/068fad8e3afedc9bbde76c2654f0d1d7d98bbd40
