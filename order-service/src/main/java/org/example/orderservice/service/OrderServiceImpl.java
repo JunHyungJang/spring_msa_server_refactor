@@ -1,5 +1,6 @@
 package org.example.orderservice.service;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.kafka.common.errors.ResourceNotFoundException;
 import org.example.orderservice.domain.OrderDto;
 import org.example.orderservice.infrastructure.OrderEntity;
 import org.example.orderservice.infrastructure.OrderRepository;
@@ -8,6 +9,7 @@ import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
 @Service
@@ -47,5 +49,17 @@ public class OrderServiceImpl implements OrderService {
                 .map(orderEntity -> orderEntity.EntityToDto(orderEntity))
                 .toList();
         return orderDtos;
+    }
+
+    @Override
+    public void deleteByOrderId(String orderId) {
+        Optional<OrderEntity> orderEntity = orderRepository.findById(orderId);
+        if (orderEntity.isPresent()) {
+            orderRepository.deleteById(orderId);
+        } else {
+            throw new ResourceNotFoundException("Order with ID " + orderId + " not found");
+        }
+
+
     }
 }

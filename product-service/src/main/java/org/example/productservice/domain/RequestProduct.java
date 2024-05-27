@@ -8,7 +8,10 @@ import lombok.Data;
 //@Builder
 public class RequestProduct {
     private String id;
+    private String userId;
+    private String productId;
+    private int unitPrice;
     private int qty;
-
+    private int totalPrice;
 
 }

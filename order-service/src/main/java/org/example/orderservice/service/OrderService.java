@@ -10,5 +10,7 @@ public interface OrderService {
     List<OrderDto> getAllOrders();
     List<OrderDto> getAllOrdersByUserId(String userId);
 
+    void deleteByOrderId(String orderId);
+
 
 }

@@ -1,13 +1,9 @@
 
-Ÿ
-java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "newOrderDto".(½ö¡ôJ$02f0cb7b-9d1a-4f5c-b9b0-d7311ccaaa9a
-œ
-java:S1488%"aImmediately return this expression instead of assigning it to the temporary variable "orderDtos".(®J$0c5cf188-8743-4fec-8aaf-7130d59b71cb
-œ
-java:S1488."aImmediately return this expression instead of assigning it to the temporary variable "orderDtos".(®J$86fe1ad6-cfbc-4894-b510-ba441d139e84
-†
-java:S1128"JRemove this unused import 'org.modelmapper.convention.MatchingStrategies'.(ìßêŞJ$df7c068f-ee65-4be6-97cc-fc781f6abfb9
-l
-java:S1128"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿJ$fb4ab221-0454-4b72-9e2c-49af69f4b386
-f
-java:S1068"*Remove this unused "mapper" private field.(‘ïÒ­J$52071a16-e85f-460e-925e-7fab9b038385
+¦
+java:S1488 "cImmediately return this expression instead of assigning it to the temporary variable "newOrderDto".(½ö¡ô8éæéÔû1J$67486fad-0bb4-43e1-9188-a838f13f3cc3
+£
+java:S1488'"aImmediately return this expression instead of assigning it to the temporary variable "orderDtos".(®8éæéÔû1J$f89ad420-2d4d-45f9-8452-f561d855281a
+£
+java:S14880"aImmediately return this expression instead of assigning it to the temporary variable "orderDtos".(®8éæéÔû1J$9aea139c-7a38-4c49-930d-66bbe7bd340f
+m
+java:S1068"*Remove this unused "mapper" private field.(‘ïÒ­8üæéÔû1J$436bc38f-6a3c-4a0a-ab97-474c628e3299

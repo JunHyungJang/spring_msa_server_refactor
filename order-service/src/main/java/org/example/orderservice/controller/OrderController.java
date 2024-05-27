@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.aspectj.weaver.ast.Or;
 import org.example.orderservice.domain.OrderDto;
 import org.example.orderservice.domain.RequestOrder;
+import org.example.orderservice.mq.KafkaProducer;
 import org.example.orderservice.service.OrderService;
 import org.springframework.core.env.Environment;
 import org.modelmapper.ModelMapper;
@@ -23,9 +24,12 @@ public class OrderController {
     private Environment env;
     private ModelMapper mapper = new ModelMapper();
 
-    public OrderController(OrderService orderService, Environment env) {
+    private KafkaProducer kafkaProducer;
+
+    public OrderController(OrderService orderService, Environment env, KafkaProducer kafkaProducer) {
         this.orderService = orderService;
         this.env = env;
+        this.kafkaProducer = kafkaProducer;
     }
 
     @GetMapping("/health_check")
@@ -52,6 +56,7 @@ public class OrderController {
 //        OrderDto orderDto = mapper.map(order, OrderDto.class);
         OrderDto orderDto = order.RequestToDto(order);
         OrderDto newOrderDto = orderService.createOrder(orderDto);
+        kafkaProducer.send("order-product-forward",newOrderDto);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(newOrderDto);
     }
