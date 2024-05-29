@@ -1,4 +1,21 @@
-# spring_msa_server_refactor
+﻿# MSA 기반 ecommerce server 구축 
 
-리팩토링 중이라, 이전버전에 대한 Reademe 링크 첨부합니다
-https://github.com/JunHyungJang/spring_msa_server
+## 목표
+- MSA 방식으로 작동하는 ecommerce server 구축
+- Spring Boot, Spring Cloud Gateway 사용
+- Kafka를 기반으로 한 데이터 동기화 및 분산처리
+
+## 주요기능
+- 회원가입/로그인
+- 상품 주문
+- 채팅 기능
+
+## 사용기술
+- Spring Boot, Spring Cloud
+- Mysql, MongDB
+- Kafka
+
+## 아키텍처
+![설계1 drawio](https://github.com/JunHyungJang/spring_msa_server_refactor/assets/89409079/ad88b7cf-780b-4d0d-8a41-5455b1285c79)
+
+
