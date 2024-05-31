@@ -19,3 +19,4 @@
 ![설계1 drawio](https://github.com/JunHyungJang/spring_msa_server_refactor/assets/89409079/ad88b7cf-780b-4d0d-8a41-5455b1285c79)
 
 
+## DB 스키마
