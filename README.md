@@ -22,3 +22,8 @@
 ## DB 스키마
 <img width="489" alt="image" src="https://github.com/JunHyungJang/spring_msa_server_refactor/assets/89409079/3c42ff57-7bec-425b-ad37-94936e1b4e47">
 
+## 성능 최적화
+
+[MSA 간 통신 FeignClient -> gPRC 를 통한 성능개선](https://kevin0459.tistory.com/13)
+
+[Kafka를 이용한 분산처리 + 채팅방 순서보장](https://kevin0459.tistory.com/11)
