@@ -20,3 +20,5 @@
 
 
 ## DB 스키마
+<img width="489" alt="image" src="https://github.com/JunHyungJang/spring_msa_server_refactor/assets/89409079/3c42ff57-7bec-425b-ad37-94936e1b4e47">
+
